@@ -29,7 +29,6 @@ if(isset($_SESSION['currentView']) && $_SESSION['currentView']!=''){
 $pec->buttonText(array('prev'=>'Prev','next'=>'Next', 'agendaDay'=>'Day','basicDay'=>'Day','month'=>'Month','agendaWeek'=>'Week','list'=>'Agenda'));
 
 
-);
 
 
 $activeExternalURLForCalendars = C_Events::findExternalURLForCalendars($_SESSION['userData']['active_calendar_id']);
